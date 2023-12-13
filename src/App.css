@@ -1,0 +1,18 @@
+/* App.css */
+@media (max-width: 790px) {
+    .nav.flex-column {
+      display: none;
+      position: absolute;
+      top: 60px; /* Adjust as needed */
+      left: 0;
+      width: 100%;
+      background-color: #fff; /* Adjust background color as needed */
+      z-index: 1;
+    }
+  
+    .nav.flex-column.open {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
